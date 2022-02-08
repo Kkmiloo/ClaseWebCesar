@@ -23,6 +23,68 @@
 
     <main>
 
+        <form action="./form.html" method="get">
+
+            <label for="username">Nombre: </label>
+            <input type="text" id="username"> <br>
+
+            <label for="pass">Password: </label>
+            <input type="password" id="pass" name="password"><br>
+
+            <label for="phone">Celular: </label>
+            <input type="number" name="phone" id="phone" step="null"> <br>
+
+            <label for="age"> Rango de edad </label>
+            <input type="range" name="age" id="age" min="10" max="100" value="">
+
+            <label for="hobbies"> Correr</label>
+            <input type="checkbox" name="correr" id="correr">
+
+            <label for="hobbies"> saltar</label>
+            <input type="checkbox" name="saltar" id="saltar">
+
+            <label for="ciudad"></label>
+            <select name="ciudad" id="">
+                <option value="cali">Cali</option>
+                <option value="Medallo"> Medellin</option>
+                <option value="Faca">   Faca</option>
+            </select>
+
+            <label for="comments"> Comentarios</label>
+
+            <textarea name="commets" id="comments" cols="30" rows="10"></textarea>
+
+            <input type="submit" value="enviar">
+        </form>
+
+
+
+        <table>
+            <thead>
+                <tr> Nombre</tr>
+                <tr> Apellido</tr>
+                <tr> Cuota</tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>Camilo</td>
+                    <td>Reyes</td>
+                    <td> 20000 </td>
+                </tr>
+
+                <tr>
+                    <td>Lina</td>
+                    <td>Agudelo</td>
+                    <td> 30000 </td>
+                </tr>
+            </tbody>
+        </table>
+
+
+
     </main>
 
 
