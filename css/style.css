@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+header {
+    background-color: antiquewhite;
+    margin: 1rem 1.7rem 1rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    border: 0.2rem solid antiquewhite;
+}
+
+#titulo_principal {
+    margin-bottom: 1rem;
+}
+
+#nav_header {
+    margin-bottom: 1rem;
+}
+
+#nav_header a {
+    margin: 1rem 1rem;
+}
+
+main {
+    margin: 3rem;
+}
+
+ol {
+    width: 17rem;
+    list-style: none;
+    border-radius: 0.3rem;
+    border: 0.3rem solid rgb(160, 219, 224);
+}
+
+ol li {
+    margin: 0.7rem 1rem;
+}
+
+ul {}
