@@ -1,3 +1,8 @@
+:root {
+    --main-bg-element-color: #51C4D3;
+    --bg-color: #D8E3E7;
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -6,41 +11,61 @@
 html {
     font-size: 62.5%;
     box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 body {
     font-size: 1.6rem;
+    background-color: #D8E3E7;
 }
 
 header {
-    background-color: antiquewhite;
+    background-color: #51C4D3;
     margin: 1rem 1.7rem 1rem;
     text-align: center;
     border-radius: 0.5rem;
-    border: 0.2rem solid antiquewhite;
+    border: 0.2rem solid 7882A4;
 }
 
 #titulo_principal {
+    padding-top: 1rem;
     margin-bottom: 1rem;
 }
 
 #nav_header {
-    margin-bottom: 1rem;
+    padding-bottom: 1rem;
 }
 
 #nav_header a {
     margin: 1rem 1rem;
 }
 
-main {
-    margin: 3rem;
+a {
+    color: white;
+    height: 2rem;
+    width: auto;
+    border-radius: 0.5rem;
+    text-decoration: none;
 }
 
-ol {
+a:hover {
+    background-color: #126E82;
+}
+
+main {
+    margin: 1.7rem;
+}
+
+aside {
+    width: 15vw;
+}
+
+#menu_nav {
     width: 17rem;
-    list-style: none;
+    padding-left: 1.5rem;
     border-radius: 0.3rem;
-    border: 0.3rem solid rgb(160, 219, 224);
+    border: 0.3rem solid #51C4D3;
+    background-color: #51C4D3;
 }
 
 ol li {
@@ -48,3 +73,10 @@ ol li {
 }
 
 ul {}
+
+section {
+    margin-top: 4rem;
+}
+
+
+/* https://colorhunt.co/palette/d8e3e751c4d3126e82132c33 */
