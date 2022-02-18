@@ -104,4 +104,74 @@ footer {
   padding: 1rem;
 }
 
+.post_completo{
+
+   width: 90%; 
+}
+
+.credits{
+    text-align: left;
+    padding: 0;
+    font-size: 0.2rem !important; 
+}
+
+h6{
+    margin-top: 1rem;
+    text-align: left;
+}
+
+ul{
+    margin-left: 2rem;
+    margin-bottom: 0.5rem;
+}
+li{
+   
+    text-align: left;
+    font-size: 1rem;
+}
+
+#link{
+    display: block;
+    margin-bottom: 0rem;
+    text-decoration: underline;
+}
+
+#reseña{
+    background-color: bisque;
+}
+
+.img_post{
+    display: inline-block;
+    margin: 0;
+}
+
+#img1,#img2,#img3{
+    transform: rotate(-90deg);
+}
+
+#burger_title{
+color: black;
+    text-align: center;
+    text-decoration: underline;
+}
+
+figure.star_img{
+    width: 2rem;
+    margin: 0rem;
+    display: inline-block
+
+}
+
+#star{
+    width: 100%;
+    display: inline-block;
+}
+#text_estrella{
+text-align: center;
+}
+
+a[href="../html/index.html"]{
+    text-align: left;
+    font-size: 10px;
+}
 /* https://colorhunt.co/palette/d8e3e751c4d3126e82132c33 */
